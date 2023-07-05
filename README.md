@@ -1,7 +1,7 @@
-# Live Data (Real-time data) in Django using Django Channels
+# Real-time data in Django using Django Channels to Update Vue
 
 # Description
-This project shows how to get live data <br />
+This project shows how to get live data
 using Django Channels Rest Framework (DCRF), in Django
 
 ## Technology Stack
@@ -20,18 +20,4 @@ Django Channels: https://channels.readthedocs.io/en/stable/index.html<br />
 DRF Channels: https://djangochannelsrestframework.readthedocs.io/en/latest/<br />
 Redis-Server: https://pypi.org/project/redis-server/
 
-## To run the project
-1. Checkout the code
-2. Create a virtual environment (virutalenv .env)
-3. Activate the environment (source .env/bin/activate)
-4. Install all the packages (pip install -r requirements.txt)
-5. Navigate inside the project (cd src)
-6. Migrate (python manage.py migrate)
-7. Create a superuser (python manage.py createsuperuser) <br />
-   Fill in all the details on the terminal to create the superuser
-8. Run the backend server (python manage.py runserver)
-9. Visit the server link (http://localhost:8000/)
 
-## Video Demo
-Part 1: https://youtu.be/GBjuMxg_2jU <br />
-Part 2: https://youtu.be/yOfBcXbxUyE
